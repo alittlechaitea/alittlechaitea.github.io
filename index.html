@@ -6,21 +6,20 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to My Personal Website</h1>
+      <div class="logo">My Personal Website</div>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <nav>
-      <ul>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
-      </ul>
-    </nav>
     
     <main>
       <section id="about-me">
         <h2>About Me</h2>
-        <p>Insert information about yourself here.</p>
+        <p>I'm a [insert profession/hobbies/interests]. I enjoy [insert something quirky/fun].</p>
       </section>
       
       <section id="projects">
@@ -50,83 +49,7 @@
     </main>
     
     <footer>
-      <p>Copyright © Your Name
+      <p>&copy; 2023 Your Name</p>
     </footer>
   </body>
 </html>
-CSS:
-
-css
-Copy code
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 50px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-  overflow: hidden;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: #333;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  background-color: #ddd;
-}
-
-section {
-  padding: 50px;
-}
-
-section h2 {
-  margin-top: 0;
-}
-
-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
-form button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
